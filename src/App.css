@@ -1,0 +1,27 @@
+.active{
+    border-bottom: '3px';
+}
+
+.navlink::before{
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: 3px;
+  opacity: 0;
+  transition: .3s;
+  background: rgb(255, 0, 221);
+}
+
+.active{
+    color:#0FCFEC;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.active::before{
+    opacity: 1;
+}

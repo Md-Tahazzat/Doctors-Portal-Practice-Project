@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Teeth Orthodentist",
+        "slots":["8:00 AM-8:30 AM","8:30 AM-9:00 AM","9:00 AM-9:30 AM","9:30 AM-10:00 AM","10:00 AM-10:30 AM","10:30 AM-11:00 AM","11:00 AM-11:30 AM","11:30 AM-12:00 PM"," 12:00 PM - 12:30 PM"]
+
+      },
+      {
+        "name": "Cosmetic Dentistry",
+        "slots":["8:00 AM-8:30 AM","8:30 AM-9:00 AM","9:00 AM-9:30 AM","9:30 AM-10:00 AM","10:00 AM-10:30 AM","10:30 AM-11:00 AM","11:00 AM-11:30 AM","11:30 AM-12:00 PM"," 12:00 PM - 12:30 PM"]
+      },
+      {
+        "name": "Teeth Cleaning",
+        "slots":["8:00 AM-8:30 AM","8:30 AM-9:00 AM","9:00 AM-9:30 AM","9:30 AM-10:00 AM","10:00 AM-10:30 AM","10:30 AM-11:00 AM","11:00 AM-11:30 AM","11:30 AM-12:00 PM"," 12:00 PM - 12:30 PM"]
+      },
+      {
+        "name": "Cavity Protection",
+        "slots":["8:00 AM-8:30 AM","8:30 AM-9:00 AM","9:00 AM-9:30 AM","9:30 AM-10:00 AM","10:00 AM-10:30 AM","10:30 AM-11:00 AM","11:00 AM-11:30 AM","11:30 AM-12:00 PM"," 12:00 PM - 12:30 PM"]
+      },
+      {
+        "name": "Pedietric Dental",
+        "slots":["8:00 AM-8:30 AM","8:30 AM-9:00 AM","9:00 AM-9:30 AM","9:30 AM-10:00 AM","10:00 AM-10:30 AM","10:30 AM-11:00 AM","11:00 AM-11:30 AM","11:30 AM-12:00 PM"," 12:00 PM - 12:30 PM"]
+      },
+      {
+        "name":"Oral Surgery",
+        "slots":["8:00 AM-8:30 AM","8:30 AM-9:00 AM","9:00 AM-9:30 AM","9:30 AM-10:00 AM","10:00 AM-10:30 AM","10:30 AM-11:00 AM","11:00 AM-11:30 AM","11:30 AM-12:00 PM"," 12:00 PM - 12:30 PM"]
+      }
+]
