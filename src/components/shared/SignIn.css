@@ -11,14 +11,12 @@
     top: -40px;
     left: 12px;
     padding: 0 5px;
-    background-color:transparent;
     color: black;
     transition: .3s;
 }
 
 .input-box input:focus ~ label,
 .input-box input:valid ~ label{
-    background:rgb(148 163 184 );
     font-size: .9rem;
     top: -61px;
     left: 12px;
