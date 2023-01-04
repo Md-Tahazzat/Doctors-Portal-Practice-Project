@@ -23,12 +23,12 @@ const SignIn = () => {
           />
           <label
             htmlFor="text"
-            className="input-label bg-slate-50 dark:bg-slate-700 dark:text-white"
+            className="input-label pointer-events-none bg-slate-50 dark:bg-slate-700 dark:text-white"
           >
             Email
           </label>
         </div>
-        <div className="input-box">
+        <div className="input-box mt-[-15px]">
           <span
             onClick={handleInputType}
             className="password-show relative top-[2.2rem] right-3 z-10 float-right cursor-pointer"
@@ -49,7 +49,7 @@ const SignIn = () => {
 
           <label
             htmlFor="password"
-            className="input-label bg-slate-50 dark:bg-slate-700 dark:text-white"
+            className="input-label pointer-events-none bg-slate-50 dark:bg-slate-700 dark:text-white"
           >
             Password
           </label>

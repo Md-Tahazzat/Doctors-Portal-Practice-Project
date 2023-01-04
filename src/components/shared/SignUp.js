@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const SignUp = () => {
+  const [visible, setVisible] = useState("password");
+  const toggleInput = () => {
+    setVisible((curr) => (curr === "password" ? "text" : "password"));
+  };
   return (
     <div className="login-form mx-auto mt-8 h-screen w-full md:w-3/6 lg:w-2/6">
       <form className="rounded-lg bg-slate-50 px-5 py-5 dark:bg-slate-700 md:border lg:border lg:border-slate-400 lg:shadow-lg">
@@ -18,7 +22,7 @@ const SignUp = () => {
           />
           <label
             htmlFor="text"
-            className="input-label bg-slate-50 dark:bg-slate-700 dark:text-white"
+            className="input-label pointer-events-none bg-slate-50 dark:bg-slate-700 dark:text-white"
           >
             Email
           </label>
@@ -27,13 +31,13 @@ const SignUp = () => {
           <input
             className="w-full rounded-md border bg-transparent py-2 px-4 text-xl focus:border-2 focus:border-blue-700 focus:outline-none dark:focus:border-blue-300 "
             autoComplete="off"
-            type="password"
+            type={visible}
             name="password"
             required
           />
           <label
             htmlFor="password"
-            className="input-label bg-slate-50 dark:bg-slate-700 dark:text-white"
+            className="input-label pointer-events-none bg-slate-50 dark:bg-slate-700 dark:text-white"
           >
             Password
           </label>
@@ -42,18 +46,25 @@ const SignUp = () => {
           <input
             className="w-full rounded-md border bg-transparent py-2 px-4 text-xl focus:border-2 focus:border-blue-700 focus:outline-none dark:focus:border-blue-300 "
             autoComplete="off"
-            type="password"
+            type={visible}
             name="confirm-password"
             required
           />
           <label
             htmlFor="confirm-password"
-            className="input-label bg-slate-50 dark:bg-slate-700 dark:text-white"
+            className="input-label pointer-events-none bg-slate-50 dark:bg-slate-700 dark:text-white"
           >
             Confirm Password
           </label>
         </div>
-
+        <div className="flex ">
+          <input
+            onChange={toggleInput}
+            type="checkbox"
+            className="checkbox checkbox-sm dark:checkbox-success"
+          />
+          <span className="text-md mx-2 mt-[-2px] ">show password</span>
+        </div>
         <div className="pt-5 pb-10">
           <span className="float-left">Already have an account?</span>
           <NavLink
